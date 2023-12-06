@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>My First Javascript</h2>
+    <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+    Click here to display date and time . </button>
+    <p id="demo"></p>
+
+    <h3>What JS can do?</h3>
+    <p id="demo2"> Javascript can change html content</p>
+    <button type="button" onclick='document.getElementById("demo2").innerHTML ="Hello JS"'>
+    Click Me</button>
+
+    <p id="style">JS can change the style of html element</p>  
+    <button type="button" onclick="document.getElementById('style').style.fontSize='50px'"> Click here to change font</button>
+
+    <p id="hide">JS can hide/unhide the html element</p>
+    <button type="button" onclick='document.getElementById("hide").style.display="none"'>click to hide</button>
+    <button type="button" onclick='document.getElementById("hide").style.display="block"'>click to unhide</button>
+</body>
+</html>

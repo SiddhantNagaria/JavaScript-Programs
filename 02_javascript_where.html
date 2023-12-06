@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script>
+      function myfunction() {
+        document.getElementById("demo").innerHTML = "paragraph 2 - internal js";
+      }
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <p id="demo3"></p>
+    <p id="demo">para 1</p>
+    <button type="button" onclick="myfunction()">
+      Click here.... Internal JavaScript
+    </button>
+
+    <p id="demo2">paragraph 1</p>
+    <button type="button" onclick="myFunction()">
+      Click here.. External JavaScript
+    </button>
+    <script src="script.js"></script>
+  </body>
+</html>
