@@ -1,11 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    Variables defined with const cannot be Redeclared <br>
+    Variables defined with const cannot be Reassigned <br>
+    Variables defined with const have Block Scope <br>
+    JavaScript const variables must be assigned a value when they are declared <br>
+
+    <h2> Javascript const</h2>
+    <p id="demo"></p>
+    <script>
+        try{
+            const pi=3.14245345334;
+            pi=2354253
+        }
+        catch(err){
+            document.getElementById("demo").innerHTML=err;
+        }
+    </script>
+  </body>
 </html>
