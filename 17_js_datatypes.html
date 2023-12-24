@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    JavaScript has 8 Datatypes <br>
+    1. String <br>
+    2. Number <br>
+    3. Bigint <br>
+    4. Boolean <br>
+    5. Undefined <br>
+    6. Null <br>
+    7. Symbol <br>
+    8. Object <br>
+
+    The Object Datatype <br>
+    The object data type can contain: <br>
+
+    1. An object <br>
+    2. An array <br>
+    3. A date <br>
+
+    <p id="demo"></p>
+    <script>
+        // Numbers:
+        let length = 16;
+        let weight = 7.5;
+
+        // Strings:
+        let color = "Yellow";
+        let lastName = "Johnson";
+
+        // Booleans
+        let x = true;
+        let y = false;
+
+        // Object:
+        const person = { firstName: "John", lastName: "Doe" };
+        const car = { name: "ecosport", company: "ford" };
+
+        // Array object:
+        const cars = ["Saab", "Volvo", "BMW"];
+
+        // Date object:
+        const date = new Date("2022-03-25");
+
+        document.write(length + "<br>" + weight + "<br>" + color + "<br>" + lastName + "<br>" + x + "<br>" + y + "<br>" + person + "<br>" + car + "<br>" + cars + "<br>" + date);
+
+        let x1 = 16 + 4 + " volvo";
+        let x2 = "volvo" + 16 + 4;
+        document.write("<br>" + x1 + "<br>" + x2);
+
+        let x3 = 123e5; //12300000
+        let y3 = 123e-5; //0.00123
+
+        document.write("<br>" + x3 + "<br>" + y3);
+
+        let x4 = BigInt("123456789012345678901234567890");
+
+        let a = 5;
+        let b = 5;
+        let c = 6;
+        document.write("<br>" + (a == b) + "<br>" + (a == c));
+
+        const array1 = ["a", "b", "c"];
+        document.getElementById("demo").innerHTML = array1[3];
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>JS const objects</h2>
+    <p id="demo"></p>
+    <p id="demo2"></p>
+    <script>
+        const car={type:"suv ", model:"titanium+ ", color:"red"};
+        document.getElementById("demo").innerHTML = "Type: "+car.type + "model : " + car.model + "color : " + car.color;
+        car.color= " brown"
+        document.getElementById("demo2").innerHTML=car.color;
+
+    </script>
+</body>
+</html>
