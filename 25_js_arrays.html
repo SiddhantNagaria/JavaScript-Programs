@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <p id="demo2"></p>
+    <SCRIPT>
+        const car = ["a","b", "c"];
+
+        const cars = [];
+        cars[0] = "0";
+        cars[2] = "1";
+
+        const Carss = new Array("a","b","c");
+        let x = Carss[2];
+
+        const fruits = ["A","B","C","D"];
+        document.getElementById("demo").innerHTML=fruits.toString();
+        document.write(fruits);
+        
+        const person = {firstName:"John", LastName:"Cena", age:"42"};
+        document.write("<br>" + person.LastName);
+
+        document.write(fruits.length);
+
+        const fruit = ["Apple","Banana","Orange","Mango"];
+        let flen = fruits.length;
+        
+        document.write(fruit instanceof Array);
+
+        let text="<ul>";
+        for(let i = 0;i<flen;i++){
+            text += "<li>"+fruit[i]+"</li>";
+        }
+        text+="</ul>"
+        document.getElementById("demo2").innerHTML = text;
+    </SCRIPT>
+</body>
+</html>
