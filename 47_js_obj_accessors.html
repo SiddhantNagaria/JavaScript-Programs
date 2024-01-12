@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        const person = {
+            name:"siddhant",
+            age: 50,
+            city: " mathura",
+            hobby:"",
+            get detail(){
+                return this.city; 
+            } ,
+            set abc(xyz){
+                this.hobby = hobby;
+            }
+        }
+        person.hobby = " music"
+        document.getElementById("demo").innerHTML = person.detail;
+        document.write(person.hobby)
+    </script>
+</body>
+</html>
