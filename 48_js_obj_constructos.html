@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        function person(first, last , age){
+            this.firstname = first;
+            this.lastname = last;
+            this.age = age;
+        }   
+        const myeslf = new person("siddhant","nagaria",22);
+        document.getElementById('demo').innerHTML = myeslf.age;
+    </script>
+</body>
+</html>
