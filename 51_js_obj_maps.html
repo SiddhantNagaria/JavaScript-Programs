@@ -6,6 +6,14 @@
     <title>Document</title>
 </head>
 <body>
-    
+   <p id="demo"></p> 
+   <script>
+        const fruits = new Map([
+            ["apple",50],
+            ["banana",30],
+            ["orange",70],
+        ])
+        document.getElementById("demo").innerHTML = fruits.get("apple");
+   </script>
 </body>
 </html>

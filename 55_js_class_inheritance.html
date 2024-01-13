@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        class Car{
+            constructor(model){
+                this.model = model;
+            }
+            getModel(){
+                return `this car is ${this.model}`;
+            }
+        }
+        class Model extends Car{
+            constructor(model, year){
+                super(model);
+                this.model = mod;
+            }
+            show(){
+                return this.getModel() + this.model;
+            }
+        }
+        const mycar = new Model("ford ecosport")
+    </script>
+</body>
+</html>
