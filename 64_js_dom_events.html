@@ -11,7 +11,8 @@
     <button id="btn">Try Now</button>
     <p id="demo"></p>
     <p id="demo2"></p>
-    <div onmouseover="mouseover(this)" onmouseout="mouseout(this)" style="border: 2px solid black; width: fit-content;">bring mouse here</div>
+    <div onmouseover="mouseover(this)" onmouseout="mouseout(this)" style="border: 2px solid black; width: fit-content;">
+        bring mouse here</div>
     <script>
         document.getElementById("btn").onclick = displayDate;
         function displayDate() {
@@ -27,12 +28,12 @@
             }
             document.getElementById("demo2").innerHTML = text;
         }
-function mouseover(obj){
-obj.innerHTML = "ok bye"
-}
-function onmouseout(obj){
-    obj.innerHTML = "bring mouse here"
-}
+        function mouseover(obj) {
+            obj.innerHTML = "ok bye"
+        }
+        function mouseout(obj) {
+            obj.innerHTML = "bring mouse here"
+        }
     </script>
 </body>
 
