@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <input type="button" onclick="assign();" value="click me">
+    <br>
+    <script>
+        document.write("location : - " + window.location.href + "<br>")
+        document.write("hostname : - " + window.location.hostname + "<br>")
+        document.write("pathname : - " + window.location.pathname + "<br>")
+        document.write("protocol : - " + window.location.protocol + "<br>")
+
+        function assign() {
+            window.location.assign("https://www.google.com")
+        }
+    </script>
+</body>
+</html>
