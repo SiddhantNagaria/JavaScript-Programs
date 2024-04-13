@@ -42,3 +42,20 @@ var func3 = function func4() {
 
 
 ////////////////////////////////////////////////
+
+var x=10
+ function myFunction(){
+    var y=20;
+  if(true){
+    var z=30;
+}
+console.log(x);
+console.log(y);
+console.log(z);
+ }
+
+ myFunction()
+
+ console.log(x);
+console.log(y);
+    console.log(z);
